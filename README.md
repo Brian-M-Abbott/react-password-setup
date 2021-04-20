@@ -2,10 +2,6 @@
 
 > React Component providing password input with validation. Also supports custom validation via passed props.
 
-## Install
-
-
-
 ## Usage
 
 ```jsx
