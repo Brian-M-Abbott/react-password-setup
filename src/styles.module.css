@@ -1,9 +1,55 @@
-/* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  width: 100%;
+  background-color: #ffaf62;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: rgb(255, 149, 47);
+}
+
+.passwordFormDiv {
+  border-radius: 5px;
+  background-color: #246be8;
+  padding: 20px;
+}
+
+.passwordLabel {
+  color: white;
+  font-family: Poppins, Helvetica, sans-serif;
+  font-size: 20;
+  font-weight: 500;
+}
+
+.validationLabel {
+  font-size: x-small;
+  font-family: Poppins, Helvetica, sans-serif;
+  font-style: italic;
+  color: red;
 }

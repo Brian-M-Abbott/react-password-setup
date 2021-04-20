@@ -1,6 +1,14 @@
-import React from 'react'
-import styles from './styles.module.css'
+import React from 'react';
+import PasswordCreationForm from './components/password-creation-form';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const PasswordValidation = ({ primaryLabelText, confirmationLabelText, isMasked }) => {
+  return (
+    <div>
+      <PasswordCreationForm
+          primaryLabelText= {primaryLabelText}
+          confirmationLabelText={confirmationLabelText}
+          isMasked={isMasked}
+      />
+    </div>
+  )
 }
